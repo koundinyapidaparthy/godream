@@ -6,6 +6,7 @@ import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Footer from "./Footer";
+import clsx from "clsx";
 const useStyles = makeStyles((theme) => ({
   wrappper: {
     height: "95vh",
@@ -21,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const ContactUs = () => {
+const ContactUs = ({ hideScrollBars }) => {
   const classes = useStyles();
 
   const handleSubmit = (e) => {
@@ -31,7 +32,7 @@ const ContactUs = () => {
   };
 
   return (
-    <Grid container className={classes.wrappper}>
+    <Grid container className={clsx({ [classes.wrappper]: !hideScrollBars })}>
       <Grid item xs={12}>
         <Grid
           container
@@ -140,9 +141,11 @@ const ContactUs = () => {
           </Grid>
         </Grid>
       </Grid>
-      <Grid item xs={12}>
-        <Footer />
-      </Grid>
+      {!hideScrollBars ? (
+        <Grid item xs={12}>
+          <Footer />
+        </Grid>
+      ) : null}
     </Grid>
   );
 };

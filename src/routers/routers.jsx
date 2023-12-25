@@ -10,8 +10,8 @@ const AllRoutes = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<SharedLayout />}>
-          <Route index element = {<Home/>} />
+        <Route path="/godream/" element={<SharedLayout />}>
+          <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="services" element={<Services />} />
           <Route path="contactUs" element={<ContactUs />} />

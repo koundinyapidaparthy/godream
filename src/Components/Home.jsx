@@ -5,6 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import HomeHeaderImage from "../images/HomeHeader.jpg";
 import Services from "./Services";
 import Footer from "./Footer";
+import ContactUs from "./ContactUs";
 const useStyles = makeStyles((theme) => ({
   wrapper: {
     height: "100vh",
@@ -81,6 +82,9 @@ const Home = () => {
         </Grid>
         <Grid item xs={12}>
           <Services hideScrollBars />
+        </Grid>
+        <Grid item xs={12}>
+          <ContactUs hideScrollBars />
         </Grid>
         <Grid item xs={12}>
           <Footer />

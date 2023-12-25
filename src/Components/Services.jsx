@@ -322,7 +322,7 @@ const Services = ({ hideScrollBars }) => {
               POPULAR COUNTRIES WE SERVICE
             </Typography>
           </Grid>
-          <Grid item xs={12} xl={5}>
+          <Grid item xs={12} md={9} lg={8} xl={7}>
             <Grid container spacing={1}>
               {CountryImages.map(({ src, alt, university }, index) => {
                 return (
