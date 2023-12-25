@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/godream/static/css/main.e8fef9a8.css",
+    "main.js": "/godream/static/js/main.800a329f.js",
+    "static/js/787.9e9f4ffd.chunk.js": "/godream/static/js/787.9e9f4ffd.chunk.js",
+    "static/media/Canada.jpg": "/godream/static/media/Canada.28727aa287cde27fb4e5.jpg",
+    "static/media/AbuDhabi.jpg": "/godream/static/media/AbuDhabi.ed1cba6c1a03f1ac2125.jpg",
+    "static/media/Dubai.jpg": "/godream/static/media/Dubai.59f5cfeb6f09341ed027.jpg",
+    "static/media/Singapore.jpg": "/godream/static/media/Singapore.5d5749a52f7cdd982ced.jpg",
+    "static/media/Malaysia.jpg": "/godream/static/media/Malaysia.aef026a959c6fbdf483c.jpg",
+    "static/media/Australia.jpg": "/godream/static/media/Australia.bae20ac76cc8eaf904d0.jpg",
+    "static/media/France.jpg": "/godream/static/media/France.e9d03b6497a67c5be9a1.jpg",
+    "static/media/ServiceHeader.jpg": "/godream/static/media/ServiceHeader.2e8729cf181050716c0e.jpg",
+    "static/media/USA.jpg": "/godream/static/media/USA.2df51c1e83146d9ff3af.jpg",
+    "static/media/UnitedKindom.jpg": "/godream/static/media/UnitedKindom.d06fe32f80fabe7e9ea7.jpg",
+    "static/media/HomeHeader.jpg": "/godream/static/media/HomeHeader.fa929a31803bd8a6c4f3.jpg",
+    "static/media/WorldWideLogo.png": "/godream/static/media/WorldWideLogo.8614331ec1f1d3c6bee8.png",
+    "static/media/DependentVisaLogo.png": "/godream/static/media/DependentVisaLogo.7b1004fc9470c63b1594.png",
+    "index.html": "/godream/index.html",
+    "main.e8fef9a8.css.map": "/godream/static/css/main.e8fef9a8.css.map",
+    "main.800a329f.js.map": "/godream/static/js/main.800a329f.js.map",
+    "787.9e9f4ffd.chunk.js.map": "/godream/static/js/787.9e9f4ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8fef9a8.css",
+    "static/js/main.800a329f.js"
+  ]
+}
