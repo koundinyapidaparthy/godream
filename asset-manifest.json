@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/godream/static/css/main.e8fef9a8.css",
-    "main.js": "/godream/static/js/main.800a329f.js",
+    "main.js": "/godream/static/js/main.babb1cd1.js",
     "static/js/787.9e9f4ffd.chunk.js": "/godream/static/js/787.9e9f4ffd.chunk.js",
     "static/media/Canada.jpg": "/godream/static/media/Canada.28727aa287cde27fb4e5.jpg",
     "static/media/AbuDhabi.jpg": "/godream/static/media/AbuDhabi.ed1cba6c1a03f1ac2125.jpg",
@@ -18,11 +18,11 @@
     "static/media/DependentVisaLogo.png": "/godream/static/media/DependentVisaLogo.7b1004fc9470c63b1594.png",
     "index.html": "/godream/index.html",
     "main.e8fef9a8.css.map": "/godream/static/css/main.e8fef9a8.css.map",
-    "main.800a329f.js.map": "/godream/static/js/main.800a329f.js.map",
+    "main.babb1cd1.js.map": "/godream/static/js/main.babb1cd1.js.map",
     "787.9e9f4ffd.chunk.js.map": "/godream/static/js/787.9e9f4ffd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8fef9a8.css",
-    "static/js/main.800a329f.js"
+    "static/js/main.babb1cd1.js"
   ]
 }
