@@ -88,7 +88,7 @@ const Headers = () => {
             Contact
           </Button>
         </Grid>
-        <Grid item xs={3} className={classes.mobileViewIcon}>
+        <Grid item xs={2} className={classes.mobileViewIcon}>
           <MenuRoundedIcon
             onClick={() => {
               setOpenDrawer(true);
