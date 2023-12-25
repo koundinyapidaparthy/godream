@@ -1,13 +1,13 @@
 import React from 'react';
 import AllRoutes from './routers/routers';
-
-
+import { ThemeProvider } from '@material-ui/core';
+import theme from './Theme';
 
 function App() {
   return (
-    <div>
+    <ThemeProvider theme={theme}>
       <AllRoutes/>
-    </div>
+    </ThemeProvider>
   );
 }
 export default App;
