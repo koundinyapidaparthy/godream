@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import MenuItem from "@material-ui/core/MenuItem";
@@ -21,6 +21,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+const ContactUs = () => {
   const classes = useStyles();
 
   const handleSubmit = (e) => {
